@@ -6,6 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form>
+        <label for="nameInput"><b>Nome:</b></label>
+        <input type="name" placeholder="Escreva o seu nome" id="nameInput" minlength="3" required/><br>
+        <label for="emailInput"><b>Email:</b></label>
+        <input type="email" placeholder="Escreva o seu email" id="emailInput" required/><br>
+        <label for="idadeInput"><b>Idade:</b></label>
+        <input type="idade" placeholder="Indique a sua idade" id="idadeInput" required/><br>
+        <label for="dataInput"><b>Data de Nascimento:</b></label>
+        <input type="date" id="birthday" name="birthday"><br>
+        <label for="nacionalityInput"><b>Nacionalidade:</b></label>
+        <select id="nacionalityInput" name="nacionalityInput">
+            <option value="Portugal">Portugal</option>
+            <option value="Espanha">Espanha</option>
+            <option value="França">França</option>
+            <option value="Venezuela">Venezuela</option>
+        </select><br>
+        <label for="passwordInput"><b>Password:</b></label>
+        <input type="password" placeholder="Digite a sua palavra-passe" id="passwordInput" minlength="8" required /><br /><br />
+        <input type="submit" value="Submeter formulário">
+    </form>
 </body>
 </html>

@@ -1,0 +1,27 @@
+body {
+    background-color: #fff;
+    margin: 0;
+}
+.hero {
+    padding: 80px;
+}
+.hero_grid {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 60px;
+    justify-items: center;
+} 
+@media only screen and (max-width: 1024px) {
+    .hero {
+        padding: 120px 20px;
+    }
+    .hero_grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .hero_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }

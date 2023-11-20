@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway&display=swap');
+body {
+    background-color: #FFF;
+    color: #000;
+    margin: 0;
+    font-family: Inter;
+}
+.hero {
+    padding: 80px;
+}
+.hero_grid {
+    /*align-items: center;*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    row-gap: 60px;
+    justify-items: center;
+}
+.card {
+    width: 295px;
+    border-radius: 20px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.price {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+.image:hover .price {
+    color: #3563E9;
+}
+
+/*h2 {  (... se o texto nao couber na linha)
+    overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show 
+           line-clamp: 1; 
+   -webkit-box-orient: vertical;
+}*/
+
+   
+    

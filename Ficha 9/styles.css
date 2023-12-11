@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@200&family=Raleway&display=swap');
+@import url(./variables/variables.css);
+body{
+    background-color: var(--bg-color);
+    font-size: var(--text-size);
+    color: var(--text-color);
+    max-width: 1440px;
+    margin: auto;
+    line-height: 160%;
+}
+.main{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+h1{
+    font-size: 64px;
+    color: var(--text-color);
+    font-weight: bolder;
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 606px;
+}
+.description{
+    max-width: 606px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 160%;
+}
+
+
+
+

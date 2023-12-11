@@ -30,7 +30,7 @@ body {
     font-weight: 400;
     margin: 0;
 }
-.image:hover .price {
+.image:hover~ .price {
     color: #3563E9;
 }
 
